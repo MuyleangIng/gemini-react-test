@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Send, User, Bot } from 'lucide-react';
 import CleanResponse from './CleanResponse';
 
-const API_KEY = 'AIzaSyCBw8CFbUNreTcCNGq4eTJRDrnymJIXhTU'; // Replace with your actual API key
+const API_KEY = 'AIzaSyCkdYPX99TPkkiVqBnIYf1s-k4IpH0K0iU'; // Replace with your actual API key
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
 
 const GeminiChatBot = () => {

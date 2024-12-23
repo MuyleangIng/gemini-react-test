@@ -6,8 +6,8 @@ const GeminiChat = () => {
   const [response, setResponse] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-  const API_KEY = 'AIzaSyCBw8CFbUNreTcCNGq4eTJRDrnymJIXhTU'; // Replace with your actual API key
-  const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
+  const API_KEY = 'AIzaSyCkdYPX99TPkkiVqBnIYf1s-k4IpH0K0iU'; // Replace with your actual API key
+  const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
